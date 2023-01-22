@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import NavBarStyle from "./style/NavigationBar.module.css";
 export function NavigationBar(): JSX.Element {
     return (
@@ -8,14 +8,14 @@ export function NavigationBar(): JSX.Element {
             <nav>
                 <ul className={NavBarStyle.ul}>
                     <li className={NavBarStyle.li}>
-                        <Link to="/" className={NavBarStyle.link}>
+                        <NavLink to="/" className={NavBarStyle.link}>
                             home
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className={NavBarStyle.li}>
-                        <Link to="contact" className={NavBarStyle.link}>
+                        <NavLink to="contact" className={NavBarStyle.link}>
                             contact
-                        </Link>
+                        </NavLink>
                     </li>
                 </ul>
             </nav>
