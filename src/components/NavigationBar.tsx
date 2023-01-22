@@ -1,31 +1,28 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import NavBarStyle from "./style/NavigationBar.module.css";
+import NavStyle from "./style/NavigationBar.module.css";
 export function NavigationBar(): JSX.Element {
     return (
-        <div className={NavBarStyle.bar}>
-            <h1 className={NavBarStyle.h1}>john Bean </h1>
+        <div className={NavStyle.bar}>
+            <h2 className={NavStyle.h2}>john&nbsp;</h2>
+            <h1 className={NavStyle.h1}>Bean</h1>
             <nav>
-                <ul className={NavBarStyle.ul}>
-                    <li className={NavBarStyle.li}>
+                <ul className={NavStyle.ul}>
+                    <li className={NavStyle.li}>
                         <NavLink
                             to="/"
                             className={({ isActive }) =>
-                                isActive
-                                    ? NavBarStyle.activelink
-                                    : NavBarStyle.link
+                                isActive ? NavStyle.activelink : NavStyle.link
                             }
                         >
                             home
                         </NavLink>
                     </li>
-                    <li className={NavBarStyle.li}>
+                    <li className={NavStyle.li}>
                         <NavLink
                             to="contact"
                             className={({ isActive }) =>
-                                isActive
-                                    ? NavBarStyle.activelink
-                                    : NavBarStyle.link
+                                isActive ? NavStyle.activelink : NavStyle.link
                             }
                         >
                             contact
