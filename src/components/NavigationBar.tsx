@@ -8,12 +8,26 @@ export function NavigationBar(): JSX.Element {
             <nav>
                 <ul className={NavBarStyle.ul}>
                     <li className={NavBarStyle.li}>
-                        <NavLink to="/" className={NavBarStyle.link}>
+                        <NavLink
+                            to="/"
+                            className={({ isActive }) =>
+                                isActive
+                                    ? NavBarStyle.activelink
+                                    : NavBarStyle.link
+                            }
+                        >
                             home
                         </NavLink>
                     </li>
                     <li className={NavBarStyle.li}>
-                        <NavLink to="contact" className={NavBarStyle.link}>
+                        <NavLink
+                            to="contact"
+                            className={({ isActive }) =>
+                                isActive
+                                    ? NavBarStyle.activelink
+                                    : NavBarStyle.link
+                            }
+                        >
                             contact
                         </NavLink>
                     </li>
