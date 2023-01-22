@@ -1,4 +1,29 @@
 .img {
     height: 200px;
     width: 200px;
+    border-radius: 50%;
+}
+
+.imgborder {
+    height: 215px;
+    width: 215px;
+    border-radius: 50%;
+    background-color: #222831;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1{
+    font-family: 'PT Serif', serif;
+    color: #393E46;
+    font-size: 30px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 215px;
 }
