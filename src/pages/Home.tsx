@@ -1,5 +1,9 @@
 import React from "react";
 
 export function Home(): JSX.Element {
-    return <h1>Home</h1>;
+    return (
+        <div className="card">
+            <h1>Welcome to my website!</h1>
+        </div>
+    );
 }

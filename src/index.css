@@ -1,10 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab); /*imports roboto slab from google fonts*/
+
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-        "Helvetica Neue", sans-serif;
+    font-family: 'Inconsolata', monospace;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #222831;
+}
+
+.container {
+    max-width: 95%;
+    margin: 0 auto;
+    padding-top: .5em;
+}
+
+.card {
+    background-color: #CFD2CF;
+    border-radius: 5px;
+    padding: 10px 20px 30px;
+    margin-top: 50px;
 }
 
 code {

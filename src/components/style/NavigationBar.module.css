@@ -1,0 +1,35 @@
+.bar{
+    max-width: 100%;
+    display: flex;
+    align-items: baseline;
+    padding: 0 2%;
+}
+
+.h1{
+    font-family: 'PT Serif', serif;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 100px;
+    margin: 0;
+}
+
+ul > li{ 
+    display: inline-block;
+}
+
+.li{
+    padding: 10px;
+}
+
+.li :hover{
+    color: #00ADB5;
+}
+
+.link{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+
