@@ -4,8 +4,7 @@ import NavStyle from "./style/NavigationBar.module.css";
 export function NavigationBar(): JSX.Element {
     return (
         <div className={NavStyle.bar}>
-            <h2 className={NavStyle.h2}>john&nbsp;</h2>
-            <h1 className={NavStyle.h1}>Bean</h1>
+            <h1 className={NavStyle.h1}>John Bean</h1>
             <nav>
                 <ul className={NavStyle.ul}>
                     <li className={NavStyle.li}>
