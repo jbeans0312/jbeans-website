@@ -1,7 +1,7 @@
 .project{
     height: 300px;
     width: 300px;
-    background-color: #00ADB5;
+    background-color: #EEEEEE;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -13,6 +13,29 @@
     height: 325px;
     background-color: #EEEEEE;
     border-radius: 10px;
+}
+
+.img {
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+}
+
+.contentimg {
+    height: 165px;
+    width: 270px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.imgborder {
+    height: 285px;
+    width: 285px;
+    border-radius: 50%;
+    background-color: #222831;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @keyframes fadeIn{
@@ -28,8 +51,37 @@
     font-family: 'PT Serif', serif;
     color: #393E46;
     font-size: 30px;
+    animation: fadeIn ease 3s;
+}
+
+.contentwrapper{
+    animation: fadeIn ease 1s;
+    border-radius: 5px;
+    padding: 15px 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
 
 .content{
-    animation: fadeIn ease 1s;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.h1{
+    font-family: 'PT Serif', serif;
+    color: #393E46;
+    font-size: 30px;
+    display: flex;
+    margin: 0;
+}
+
+.basetext{
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+    white-space: pre-line;
+    display: flex;
 }
