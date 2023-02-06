@@ -1,7 +1,7 @@
 {
   "name": "jbeans-website",
   "version": "0.1.0",
-  "homepage": "https://jbeans0312.github.io/ ",
+  "homepage": "https://jbeans0312.github.io/jbeans-website",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.4.9",
