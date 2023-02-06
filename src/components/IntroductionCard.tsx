@@ -15,10 +15,6 @@ export function IntroductionCard(): JSX.Element {
         "(and improving my CSS skills through making this website!)\n\n"
     );
 
-    const text4 = new String(
-        "Below are the projects I have worked on, thanks for stopping by!"
-    );
-
     return (
         <div className="card">
             <div className={CardStyle.center}>
@@ -32,7 +28,6 @@ export function IntroductionCard(): JSX.Element {
                     {text1}
                     {text2}
                     {text3}
-                    {text4}
                 </Text>
             </div>
         </div>
