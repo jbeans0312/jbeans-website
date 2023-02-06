@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/jbeans-website/static/css/main.e1ecc842.css",
+    "main.js": "/jbeans-website/static/js/main.5ac054a2.js",
+    "static/js/787.4f333c34.chunk.js": "/jbeans-website/static/js/787.4f333c34.chunk.js",
+    "static/media/plannerhomepage.png": "/jbeans-website/static/media/plannerhomepage.11bc99bf91ba245b7c8e.png",
+    "static/media/plannerthumb.png": "/jbeans-website/static/media/plannerthumb.9f3e16c3204397f7af10.png",
+    "static/media/profile-image-resize.jpg": "/jbeans-website/static/media/profile-image-resize.647a12df95914e17931a.jpg",
+    "index.html": "/jbeans-website/index.html",
+    "main.e1ecc842.css.map": "/jbeans-website/static/css/main.e1ecc842.css.map",
+    "main.5ac054a2.js.map": "/jbeans-website/static/js/main.5ac054a2.js.map",
+    "787.4f333c34.chunk.js.map": "/jbeans-website/static/js/787.4f333c34.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1ecc842.css",
+    "static/js/main.5ac054a2.js"
+  ]
+}
